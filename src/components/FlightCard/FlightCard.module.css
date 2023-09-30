@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0d7bd4;
+  color: aliceblue;
+  width: 100%;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+.aviaLogo {
+  font-size: 20px;
+}
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.price {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  line-height: 1;
+}
+.priceCaption {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+.legContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 98%;
+  gap: 3px;
+}
+.legContainer:nth-last-of-type(2):after{
+  content: "";
+  width: 100%;
+  height: 2px;
+  margin: 2px 0;
+  background-color: #0d7bd4;
+}
+.transfer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  color: #e4842b;
+}
+
+.transfer::before {
+  margin: 10px;
+  content: "";
+  width: 150px;
+  height: 1px;
+  background-color: #3b3d3f;
+}
+
+.transfer::after {
+  margin: 10px;
+  content: "";
+  width: 150px;
+  height: 1px;
+  background-color: #3b3d3f;
+}
+
+.aviacompany {
+  align-self: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.confirmBtn{
+    width: 100%;
+    height: 30px;
+    border-radius: 0;
+    padding: 0;margin: 0;
+    background-color: #e4842b;
+    color: #fff;
+}

@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.hours {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+.date {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #0d7bd4;
+}
+
+.duration {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
