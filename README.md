@@ -1,8 +1,16 @@
-# React + Vite
+# Тестовое задание
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/vitland/flights-search/assets/25207136/d78e4725-31d1-4972-b168-1eb3dbb927dc)
 
-Currently, two official plugins are available:
+## Функционал
+- Сортировка по выбору
+- Фасеточная фильтрация по количеству пересадок (лишние фильтры с авиакомпаниями пропадают)
+- Подгрузка новых перелетов
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Технологии
+- React 18
+- Redux-toolkit
+- Vite
+
+## Deploy
+[filghts-search](https://flights-search.vercel.app/)
